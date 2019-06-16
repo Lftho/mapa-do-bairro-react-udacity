@@ -240,7 +240,7 @@ class App extends Component {
       ];
       if (script.onerror) {
         this.setState({
-          warning: true,
+          warning: false,
           warningMsg: 'Ops! Desculpe, não foi possível carregar a API do Google Maps. Por favor, tente novamente mais tarde.'
         });
       }
@@ -270,7 +270,7 @@ class App extends Component {
           loadNeighborhood={this.getVenues}
           updateMarkers={this.updateMarkers}
         />
-        <div id="map"></div>
+        <div role="application" id="map"></div>
       </main>
     );
   }
