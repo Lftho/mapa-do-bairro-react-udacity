@@ -1,19 +1,26 @@
-# Map Project - Meu Bairro 
+# Projeto mapa bairro
 
-Projeto construido para o `Udacity Project End`
+Desenvolvimento de aplicativo de página única apresentando um mapa de um bairro e adicionado recursos a esse mapa, incluindo locais em destaque, dados de terceiros sobre esses locais e formas de navegar pelo conteúdo.
 
-O objetivo do projeto é utilizar React, a API do Google Maps e dados de APIs de terceiros para criar uma aplicação web do zero. O app apresenta 15 recomendações de pizzarias, padarias e restaurantes no bairro da Liberdade, em São Paulo - SP.
+Usado a API de terceiros que fornecem conjuntos de dados valiosos para aumentar a qualidade do aplicativo.
 
-## Inicialização
+O projeto ajuda a entender padrões de design e bibliotecas/frameworks de UI, ajuda no desenvolvimento de uma base de código gerenciável e detalhes de como as estruturas podem reduzir o tempo necessário para o desenvolvimento de um aplicativo e oferecer inúmeras outras utilidades.
 
-Para executar o app:
+## Como funciona o projeto ?
 
-1. Baixe ou clone este repositório;
-2. Instale todas as dependências do projeto com `npm install`
-3. *Development Mode:* Inicie o servidor de desenvolvimento com `npm start`
+O projeto é integrado com a API do Google Maps para trazer marcadores de localizações importantes para o autor do projeto, integração com a API do Foursquare para apresentar informações de cada local como endereço completo, imagem do local, avaliações e informações para ir até o local.
 
-## Obs:
-Que a funcionalidade off-line do aplicativo está disponível apenas no modo de produção. Isso armazena em cache o app boilerplate usando o service worker fornecido com o Create React App. Os dados da API e dados do mapa são mostrados apenas quando há uma conexão de rede, para evitar a violação de quaisquer termos de serviço.
+Menu lateral para filtrar as localizações e uma lista com as localizações, todos os componentes da aplicação renderizam na tela de maneira responsiva e são utilizáves em navegadores de desktops modernos, tablets e celulares.
 
-## Recursos adicionais utilizados
-- [Foursquare API](https://developer.foursquare.com/)
+## Quais tecnologias foram utilizadas ?
+
+* [Create React App](https://github.com/facebookincubator/create-react-app).
+* [React Google Maps](https://github.com/tomchentw/react-google-maps).
+* [Foursquare](https://developer.foursquare.com/).
+* [SnazzyMaps](https://snazzymaps.com/style/14889/flat-pale).
+
+## Como rodar o projeto ?
+
+* Faça o Download do projeto
+* Instale as dependencias do projeto com `npm install` se fo Mac `sudo npm install`.
+* Rode o projeto com `npm start`.
